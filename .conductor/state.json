@@ -3,8 +3,8 @@
     {
       "id": 1,
       "task": "Create a runnable frontend project in the repo with a first complete homepage implementation",
-      "status": "in_progress",
-      "notes": "Repository still lacks any site files; next turn must contain committed homepage assets in the repo root or execution is effectively blocked by non-delivery."
+      "status": "blocked",
+      "notes": "After repeated implementation instructions, the repository still lacks any site files; final approval is impossible until actual homepage assets are committed."
     },
     {
       "id": 2,
@@ -29,5 +29,5 @@
     "Iteration budget is being consumed without progress on the deliverable.",
     "If the next turn still lacks site files, execution is effectively blocked by non-delivery rather than technical uncertainty."
   ],
-  "last_instruction": "Commit the actual website in the repository root now by adding at minimum index.html and styles.css that open directly in a browser and implement a responsive Apple-inspired birds landing page with a minimal nav, premium hero, at least two spacious bird feature sections, clear CTAs, and a footer so I can review the real deliverable next turn."
+  "last_instruction": "Add the actual static site to the repository root now by committing index.html and styles.css (and only any local assets strictly needed) so the page opens directly in a browser and clearly delivers a responsive Apple-inspired birds landing page with a minimal nav, premium hero, at least two spacious bird sections, clear CTAs, and a footer for final review next turn."
 }
