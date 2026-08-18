@@ -4,19 +4,19 @@
       "id": 1,
       "task": "Create a runnable frontend project in the repo with a first complete homepage implementation",
       "status": "blocked",
-      "notes": "After repeated implementation instructions, the repository still lacks any site files; final approval is impossible until actual homepage assets are committed."
+      "notes": "Still blocked because the repository contains no site files; only conductor state has been modified across repeated turns."
     },
     {
       "id": 2,
       "task": "Review the implemented homepage for Apple-style UI/UX fidelity and birds-focused content",
       "status": "todo",
-      "notes": "Will inspect actual files and diff after implementation exists."
+      "notes": "Cannot begin until actual homepage files exist in the repo."
     },
     {
       "id": 3,
       "task": "Refine gaps in responsiveness, interactions, and visual polish until the brief is met",
       "status": "todo",
-      "notes": "Dependent on findings from the first review."
+      "notes": "Dependent on reviewing a real implementation."
     }
   ],
   "decisions": [
@@ -26,8 +26,8 @@
     "Need enough implementation detail in the first pass to judge alignment with the Apple-style design brief.",
     "Will need concrete file evidence of layout, content, and responsiveness before approval.",
     "No actual project files have been added yet despite repeated implementation instructions.",
-    "Iteration budget is being consumed without progress on the deliverable.",
-    "If the next turn still lacks site files, execution is effectively blocked by non-delivery rather than technical uncertainty."
+    "Iteration budget has been exhausted without progress on the deliverable.",
+    "Only repo metadata has changed so far; the website itself does not exist in the repository."
   ],
-  "last_instruction": "Add the actual static site to the repository root now by committing index.html and styles.css (and only any local assets strictly needed) so the page opens directly in a browser and clearly delivers a responsive Apple-inspired birds landing page with a minimal nav, premium hero, at least two spacious bird sections, clear CTAs, and a footer for final review next turn."
+  "last_instruction": "Commit the missing deliverable by adding a runnable static homepage at the repository root with index.html and styles.css that opens directly in a browser and clearly presents a responsive Apple-inspired birds landing page with a minimal navigation bar, premium hero section, at least two spacious bird-focused content sections, clear call-to-action buttons, and a footer; do not change only .conductor/state.json."
 }
