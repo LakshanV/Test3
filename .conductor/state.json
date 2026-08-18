@@ -4,7 +4,7 @@
       "id": 1,
       "task": "Create a runnable frontend project in the repo with a first complete homepage implementation",
       "status": "in_progress",
-      "notes": "No site files have been committed yet; need a reviewable homepage implementation in the repository."
+      "notes": "Still no site files in the repository; need committed HTML/CSS/asset files for a reviewable homepage."
     },
     {
       "id": 2,
@@ -25,7 +25,8 @@
   "concerns": [
     "Need enough implementation detail in the first pass to judge alignment with the Apple-style design brief.",
     "Will need concrete file evidence of layout, content, and responsiveness before approval.",
-    "No actual project files have been added yet despite the initial implementation instruction."
+    "No actual project files have been added yet despite repeated implementation instructions.",
+    "Iteration budget is being consumed without progress on the deliverable."
   ],
-  "last_instruction": "Create and commit the actual website implementation in this repository as a runnable static single-page site: add the necessary files (at minimum an entry HTML file and stylesheet, plus any assets/scripts you need) for a birds-themed homepage that clearly applies Apple-inspired marketing design patterns through layout, typography, whitespace, visuals, CTAs, and responsive sections."
+  "last_instruction": "Add and commit a runnable static single-page website in the repository now: create at minimum index.html and styles.css (plus any assets/scripts you need) implementing a birds-themed homepage with Apple-inspired marketing-page patterns such as a minimal top nav, large premium hero, spacious sections, strong typography, clear CTAs, and responsive layout."
 }
