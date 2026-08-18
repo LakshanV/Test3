@@ -1,6 +1,29 @@
 {
-  "plan": [],
-  "decisions": [],
-  "concerns": [],
-  "last_instruction": ""
+  "plan": [
+    {
+      "id": 1,
+      "task": "Create an initial website with bird information that can be opened locally",
+      "status": "in_progress",
+      "notes": "No project files exist yet; first deliverable should be a complete minimal implementation."
+    },
+    {
+      "id": 2,
+      "task": "Review the implementation against the brief and identify any gaps",
+      "status": "todo",
+      "notes": "Need to inspect resulting files and content."
+    },
+    {
+      "id": 3,
+      "task": "Approve if the site clearly satisfies the brief",
+      "status": "todo",
+      "notes": "Approval depends on evidence from repo contents."
+    }
+  ],
+  "decisions": [
+    "A simple locally viewable website is sufficient unless the implementation reveals a need for more infrastructure."
+  ],
+  "concerns": [
+    "Need to confirm the site actually contains substantive bird information rather than placeholder text."
+  ],
+  "last_instruction": "Create an initial website in this repository that fulfills the brief with a browsable page about birds: include a homepage, visible bird information for multiple species, and any minimal assets/styles needed so it can be opened locally in a browser. After making the changes, provide the updated repo map and branch diff."
 }
